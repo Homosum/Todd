@@ -148,22 +148,24 @@ class TulingWXBot(WXBot):
             #     self.send_msg(contact['NickName'], contact['City'] + u'天气')
         # self.send_msg(u'Homosum',u'加油哦')
         # self.test()
-        schedule.every().day.at("7:30").do(self.send_weather,u'虫二')
-        schedule.every().day.at("7:30").do(self.send_weather, u'Andy')
+        schedule.every().day.at("7:30").do(self.send_weather,u'青岩仙人')
+        schedule.every().day.at("7:30").do(self.send_weather, u'嘟嘟')
         schedule.every().day.at("7:30").do(self.send_weather, u'怪兽曈')
         schedule.every().day.at("7:30").do(self.send_weather, u'Homosum')
-        schedule.every().day.at("7:30").do(self.send_weather, u'敦敦是个大敦敦')
+        schedule.every().day.at("7:30").do(self.send_weather, u'你是猪猪嘛？！')
         schedule.every().day.at("7:30").do(self.send_weather, u'一只废毒。','赣州')
         schedule.every().day.at("7:30").do(self.send_weather, u'雨中之神','东莞')
         schedule.every().day.at("7:30").do(self.send_weather, u'鲜肉水饺','宁波')
-        schedule.every().day.at('16:00').do(self.send_msg,u'Andy',u'保持健康，要多喝水哦~')
+        schedule.every().day.at("7:30").do(self.send_weather, u'好气','杭州')
+        schedule.every().day.at('16:00').do(self.send_msg,u'嘟嘟',u'保持健康，要多喝水哦~')
         schedule.every().day.at('16:00').do(self.send_msg, u'Homosum', u'保持健康，要多喝水哦~')
-        schedule.every().day.at('16:00').do(self.send_msg, u'敦敦是个大敦敦', u'保持健康，要多喝水哦~')
-        schedule.every().day.at('16:00').do(self.send_msg, u'虫二', u'保持健康，要多喝水哦~')
+        schedule.every().day.at('16:00').do(self.send_msg, u'你是猪猪嘛？！', u'保持健康，要多喝水哦~')
+        schedule.every().day.at('16:00').do(self.send_msg, u'青岩仙人', u'保持健康，要多喝水哦~')
         schedule.every().day.at('16:00').do(self.send_msg, u'怪兽曈', u'保持健康，要多喝水哦~')
         schedule.every().day.at('16:00').do(self.send_msg, u'雨中之神', u'保持健康，要多喝水哦~')
         schedule.every().day.at('16:00').do(self.send_msg, u'鲜肉水饺', u'保持健康，要多喝水哦~')
         schedule.every().day.at('16:00').do(self.send_msg, u'一只废毒。', u'保持健康，要多喝水哦~')
+         schedule.every().day.at('16:00').do(self.send_msg, u'好气', u'保持健康，要多喝水哦~')
 
         # schedule.every(1).minutes.do(self.send_msg,u'Homosum',u'每分钟一次')
         # schedule.every(1).minutes.do(self.send_weather,u'Homosum')
@@ -182,11 +184,11 @@ class TulingWXBot(WXBot):
 
     def daojishi(self,name):
         now = datetime.datetime.now()
-        endTime = datetime.datetime(2017,9,17,10,0,0,0)
+        endTime = datetime.datetime(2017,9,17,10,30,0,0)
         dev = (endTime-now).seconds+(endTime-now).days*24*3600
         print dev
         result_time = self.changeTime(dev)
-        result_ = u'距离相会还有 %s ' % result_time
+        result_ = u'距迎接曈宝小可爱还有 %s ' % result_time
         self.send_weather(name,result_)
 
 
@@ -238,7 +240,7 @@ class TulingWXBot(WXBot):
 
     def add_font_name(self,name,word):
         result=word
-        if name == u'虫二':
+        if name == u'青岩仙人':
             result = u'小仙女哦，' + result
         if name == u'少年达':
             result = u'屁股达哦，' + result
@@ -250,9 +252,9 @@ class TulingWXBot(WXBot):
             result = u'小可爱哦，' + result
         if name == u'一只废毒。':
             result = u'小仙女哦，' + result
-        if name == u'敦敦是个大敦敦':
+        if name == u'你是猪猪嘛？！':
             result = u'长宝宝哦，' + result
-        if name == u'Andy':
+        if name == u'嘟嘟':
             result = u'宝宝，' + result
         if name == u'雨中之神':
             result = u'江哥哥，' + result
