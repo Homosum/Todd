@@ -107,8 +107,7 @@ class TulingWXBot(WXBot):
             if self.get_contact_name(msg['user']['id']) == u'怪兽曈' and msg['content']['data'] == u'想你':
                 self.send_msg(u'怪兽曈',self.daojishi(u'怪兽曈'))
                 return
-            self.send_msg(u'怪兽曈', self.daojishi(u'怪兽曈'))
-            # self.send_msg_by_uid(self.tuling_auto_reply(msg['user']['id'], msg['content']['data']), msg['user']['id'])
+            self.send_msg_by_uid(self.tuling_auto_reply(msg['user']['id'], msg['content']['data']), msg['user']['id'])
         elif msg['msg_type_id']==4 and msg['content']['type']==10:
             self.send_msg(self.get_contact_name(msg['user']['id'])['nickname'],u'怀孕了大家一起帮你解决，撤回了干什么？')
         elif msg['msg_type_id'] == 3 and msg['content']['type'] == 0:  # group text message

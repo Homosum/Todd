@@ -20,24 +20,12 @@
     <favorites_list name="Todd" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bot.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="261" column="21" selection-start-line="261" selection-start-column="21" selection-end-line="261" selection-end-column="21" />
-              <folding>
-                <element signature="e#35#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/wxbot.py" />
         <option value="$PROJECT_DIR$/bot.py" />
       </list>
     </option>
@@ -49,8 +37,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="70" />
-    <option name="y" value="29" />
+    <option name="x" value="221" />
+    <option name="y" value="51" />
     <option name="width" value="1400" />
     <option name="height" value="757" />
   </component>
@@ -139,8 +127,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="29" width="1400" height="757" extended-state="0" />
-    <editor active="true" />
+    <frame x="221" y="51" width="1400" height="757" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -182,7 +170,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#35#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#35#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -200,7 +200,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#35#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -216,8 +218,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wxbot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20135">
-          <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+        <state relative-caret-position="17850">
+          <caret line="1190" column="19" selection-start-line="1190" selection-start-column="8" selection-end-line="1190" selection-end-column="19" />
           <folding>
             <element signature="e#39#48#0" expanded="true" />
           </folding>
@@ -226,8 +228,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="261" column="21" selection-start-line="261" selection-start-column="21" selection-end-line="261" selection-end-column="21" />
+        <state relative-caret-position="-120">
+          <caret line="110" column="66" selection-start-line="110" selection-start-column="66" selection-end-line="110" selection-end-column="66" />
           <folding>
             <element signature="e#35#54#0" expanded="true" />
           </folding>
